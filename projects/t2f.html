@@ -42,15 +42,18 @@
 
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#fa8322">Text2Face: Realistic Facial Image Generator</h2>
+            <h2 style="color:#fa8322">TTF-ST: Diversified Text to Face Generation using Search and Transform</h2>
             <p><a href="https://link.springer.com/chapter/10.1007/978-3-031-25825-1_30" target="_blank">Springer Link</a></p>
             <p><em>Python, tensorflow, BERT, MobileNetV2, StyleGAN2</em></p>
             <ul style="text-align:left;">
               <li>Developed a deep learning pipeline to synthesize realistic human face images from natural language text descriptions</li> 
-              <li>Incorporated synonyms of facial attributes in textual descriptions and fine-tuned BERT to generate text embeddings </li>
-              <li>Handled data imbalance in multi-label dataset using sampling techniques</li>
-              <li>Enhanced the state-of-the-art model with a new accuracy metric called cosine similarity for specified attributes</li>
-              <li>Achieved 47% improvement in accuracy from the state-of-the-art TTF-HD model</li>
+              <li>Ideated and implemented an algorithm to augment the CelebA dataset with grammatically accurate captions from 40 facial attributes</li>
+
+<li>Employed probabilistic sampling to handle dataset imbalance of labels in the dataset, leading to a 5% increase in overall accuracy</li>
+
+<li>Fine-tuned BERT to extract text embedding from textual descriptions with a remarkable AUC of 0.999 and Sigmoid loss of 0.008</li>
+
+<li>Outperformed SOTA models by 47%, leveraging a novel search & transform approach with StyleGAN2 to boost image fidelity</li>
             </ul>
             
             
